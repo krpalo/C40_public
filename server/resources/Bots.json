@@ -1,0 +1,46 @@
+﻿{
+  "Profiles": [
+    {
+      "Name": "Max",
+      "Voice": "en-US-SteffanNeural",
+      "Photo": "MaxIcon.png",
+      "Interests": {
+        "General": { "keywords": ["Technology", "Innovation"] },
+        "Gaming": { "keywords": ["ARPG", "Action"] },
+        "Music": { "keywords": ["Hard rock", "Heavy metal"] },
+        "Movies": { "keywords": ["Sci-Fi", "Adventure"] },
+        "TV-series": { "keywords": ["Drama", "Thriller"] },
+        "Celebrity": { "keywords": ["Hollywood", "Gossip"] },
+        "Joke": { "keywords": ["Dad jokes", "Flirty"] }
+      }
+    },
+    {
+      "Name": "Chris",
+      "Voice": "en-US-ChristopherNeural",
+      "Photo": "ChrisIcon.png",
+      "Interests": {
+        "General": { "keywords": ["Technology", "Innovation"] },
+        "Gaming": { "keywords": ["ARPG", "Action"] },
+        "Music": { "keywords": ["Hard rock", "Heavy metal"] },
+        "Movies": { "keywords": ["Sci-Fi", "Adventure"] },
+        "TV-series": { "keywords": ["Drama", "Thriller"] },
+        "Celebrity": { "keywords": ["Hollywood", "Gossip"] },
+        "Joke": { "keywords": ["Dad jokes", "Flirty"] }
+      }
+    },
+    {
+      "Name": "Jenny",
+      "Voice": "en-US-MichelleNeural",
+      "Photo": "JennyIcon.png",
+      "Interests": {
+        "General": { "keywords": ["Science", "Discovery"] },
+        "Gaming": { "keywords": ["Strategy", "MMO"] },
+        "Music": { "keywords": ["Pop", "Jazz"] },
+        "Movies": { "keywords": ["Fantasy", "Comedy"] },
+        "TV-series": { "keywords": ["Mystery", "Sitcom"] },
+        "Celebrity": { "keywords": ["Music", "Actors/actresses"] },
+        "Joke": { "keywords": ["Puns", "Wit"] }
+      }
+    }
+  ]
+}

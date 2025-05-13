@@ -1,0 +1,127 @@
+/* Reset default spacing and set dark theme */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Center container and size it properly */
+  .app-container {
+    width: 80vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Header styling */
+  .app-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  
+  .app-subtitle {
+    font-size: 1rem;
+    color: #aaaaaa;
+    margin-bottom: 1.5rem;
+  }
+  
+  .chat-box {
+    flex-grow: 1;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding: 1rem;
+    background-color: #2b2b2b;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 0; /* 💡 Important to allow it to shrink with flex */
+  }
+  
+/* Messages */
+.chat-message {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Chat input and button area */
+  .chat-input-area {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .chat-input-area input[type="text"] {
+    flex-grow: 1;
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .chat-input-area input[type="text"]:focus {
+    outline: 2px solid #555;
+  }
+  
+  .chat-input-area button {
+    padding: 0.6rem 1rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .chat-input-area button:hover {
+    background-color: #666;
+  }
+
+  /* Profile input and button area */
+  .profile-input-area {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .profile-input-area input[type="text"] {
+    flex-grow: 1;
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .profile-input-area input[type="text"]:focus {
+    outline: 2px solid #555;
+  }
+  
+  .profile-submit button {
+    padding: 0.6rem 1rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .profile-input-area button:hover {
+    background-color: #666;
+  }
+
+  .signed-in {
+  font-size: 0.9rem;
+  color: #666;
+}

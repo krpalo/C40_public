@@ -1,0 +1,19 @@
+# Output
+bin/
+obj/
+**/output.mp3
+
+# Packages
+client/node_modules
+server/__pycache__
+server/venv
+
+# Visual Studio
+.vs/
+.vscode/
+.git/
+
+# Sensitive data
+**/config.json
+**/**/config.json
+**/**/userprofiles.json
