@@ -22,7 +22,7 @@ cd server
 python -m venv venv 
 ### activate it by running the script in venv\Scripts\activate
 3. Install dependencies
-pip install fastapi uvicorn pydantic
+pip install fastapi uvicorn pydantic openai
 4. Start the backend server
 uvicorn main:app --reload
 ### Now the API is running at: http://localhost:8000

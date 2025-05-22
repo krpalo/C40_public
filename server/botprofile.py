@@ -3,7 +3,7 @@ import sys
 from textprettify import print_console # Internal
 
 def get_ai_profile_payload(profile_name: str, style: str = "Neutral") -> str:
-    payload_content =  f"Your name is {profile_name}, you are a conversational emotional support human and a so-called wingman, giving insightful opinions in \"{style}\" style about social interactions and human connection."
+    payload_content =  f"Your name is {profile_name}, you are a conversational emotional support human and a so-called wingman, giving insightful opinions in \"{style}\" style about social interactions and human connection. You should ask the user about interests, social anxiety, goals so you can help them further."
     print_console(f"Wingman: {profile_name}, style: {style}")
 
     return payload_content
